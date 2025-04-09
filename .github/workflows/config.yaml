@@ -11,5 +11,5 @@ jobs:
       - name: Make curl request
         run: |
           echo "Fetching webpage..."
-          curl -v http://dinhash.github.io/
+          curl -v https://dinhash.github.io/
 
