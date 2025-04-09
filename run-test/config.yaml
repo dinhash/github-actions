@@ -2,8 +2,6 @@ name: Actions Plan
 
 on:
   push:
-    paths:
-      - 'run-test/**'
   workflow_dispatch:
 jobs:
   curl-request:
