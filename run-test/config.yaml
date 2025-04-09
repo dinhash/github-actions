@@ -3,7 +3,7 @@ name: Actions Plan
 on:
   push:
     paths:
-      - 'run-test/**'     # Only run if files under terraform/ change
+      - 'run-test/**'
   workflow_dispatch:
 jobs:
   curl-request:
